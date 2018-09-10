@@ -1,5 +1,5 @@
 <html>
-<?php $site='172.16.12.20:49169' ?>
+<?php $site=$_SERVER['HTTP_HOST'] ?>
 <head>
 	<link rel="icon" href="http://<?php echo $site ?>/logo.ico" type="image/x-icon"/>
 	<link rel="stylesheet" href="http://<?php echo $site ?>/about/main.css" type="text/css" />
